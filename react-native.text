@@ -1,0 +1,330 @@
+######### 测试发布包###########
+                                                                         ######### 测试发布包###########
+                                                                                                                     ######### 测试发布包###########
+
+code-push测试环境 access-key
+8837bd2c07c405b2756c73d5177631551d8c7e94
+
+==========================================================================
+RB88泰国测试:
+code-push release-react RB88TH-IOS-ST iOS --t 1.0.0 --d Staging --des 交易记录时间 --m false
+
+code-push release-react RB88TH-Android-ST android --t 1.0.0 --d Staging --des 交易记录时间 --m false
+
+code-push deployment history RB88TH-IOS-ST Staging
+code-push deployment history  RB88TH-Android-ST Staging
+
+==========================================================================
+
+RB88中国测试: 
+code-push release-react RB88-CN-ST-IOS iOS --t 1.0.1 --d Staging --des bannerkoading --m false
+
+code-push release-react RB88-CN-ST-Android android --t 1.0.0 --d Staging --des bannerkoading --m false
+
+code-push deployment history RB88-CN-ST-IOS Staging
+code-push deployment history  RB88-CN-ST-Android Staging
+
+==========================================================================
+
+JBO中国测试
+code-push release-react JBO-CN-ST-IOS ios --t 1.0.1 --d Staging --des ESIMGbetting --m false
+
+code-push release-react JBO-CN-ST-Android android --t 1.0.0 --d Staging --des ESIMGbetting --m false
+
+code-push deployment history JBO-CN-ST-IOS Staging
+code-push deployment history  JBO-CN-ST-Android Staging
+
+==========================================================================
+JBO越南测试
+code-push release-react JBO-VP-ST-android android --t 1.0.0 --d Staging --des mnp1 --m false 
+
+code-push release-react JBO-VB-ST-IOS ios --t 1.0.1 --d Staging --des mnp1 --m false
+
+code-push deployment history  JBO-VP-ST-android Staging
+
+code-push deployment history  JBO-VB-ST-IOS Staging
+
+code-push patch  JBO-CN-ST-IOS  Staging --label v276 --disabled true 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 发布线上包（LIVE）
+  							发布线上包（LIVE）
+  											发布线上包（LIVE）
+
+code-push线上环境（LIVE） access-key
+
+ed31ad1cbb2057d9ef215619183da33167179f3d
+
+==========================================================================
+
+RB88 中国线上 CN Live 
+
+code-push release-react RB88-v2000-Live-ios ios --t 1.0.7 --d Staging --des 优化用户体验 --m false 
+
+code-push release-react Rb88Live-android android  --t 1.1.3 --d Staging --des 优化用户体验 --m false
+
+code-push patch  Rb88Live-android  Staging --label v182 --disabled true 
+
+code-push deployment history RB88-v2000-Live-ios Staging
+code-push deployment history  Rb88Live-android Staging
+==========================================================================
+
+JBO  越南线上 VND LIVE
+
+code-push release-react JBO-VN-Live-IOS ios --t 1.0.2 --d Production --des 'Tối ưu hóa trải nghiệm người dùng' --m false
+
+code-push release-react JBO-VN-Live-android android  --t 1.0.1 --d Production --des 'Tối ưu hóa trải nghiệm người dùng' --m false 
+
+code-push deployment history JBO-VN-Live-IOS Production
+code-push deployment history  JBO-VN-Live-android Production
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+RB88 泰文线上 THB LIVE 
+
+code-push release-react RB88-Live-TH-IOS ios --t 1.0.0 --d Production --des  เพิ่มประสิทธิภาพการเข้าใช้งาน  --m false
+code-push release-react RB88-Live-TH-IOS ios --t 1.0.1 --d Production --des  เพิ่มประสิทธิภาพการเข้าใช้งาน  --m false
+
+
+code-push release-react RB88-Live-TH-android android  --t 1.0.0  --d  Production --des  เพิ่มประสิทธิภาพการเข้าใช้งาน  --m false
+code-push release-react RB88-Live-TH-android android  --t 1.0.1  --d  Production --des  เพิ่มประสิทธิภาพการเข้าใช้งาน  --m false
+
+code-push deployment history RB88-Live-TH-IOS Production
+code-push deployment history  RB88-Live-TH-android Production
+
+code-push patch RB88-Live-TH-android  Production --label v86 --disabled true 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+JBO 中国线上 JBO LIVE
+
+code-push release-react JBO-v2000-Live-ios ios  --t 1.0.4 --d Staging --des 优化用户体验 --m false
+code-push release-react JBO-v2000-Live-ios ios  --t 1.0.6 --d Staging --des 优化用户体验 --m false
+
+code-push patch  JBO-v2000-Live-ios  Staging --label v143 --disabled true 
+
+code-push release-react JBO-Live-android android  --t 1.0.6 --d Staging --des 优化用户体验 --m false
+
+code-push deployment history JBO-v2000-Live-ios Staging
+code-push deployment history  JBO-Live-android Staging
+
+
+JBO 中国线上 JBO LIVE   IMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMMIMIMIMIMIMI
+
+code-push release-react JBO-CN-IM-Live-IOS ios  --t 1.0.0 --d Production --des 优化用户体验 --m false
+
+code-push release-react JBO-CN-IM-Live-Android android  --t 1.0.0 --d Production --des 优化用户体验 --m false
+
+
+code-push deployment history JBO-CN-IM-Live-IOS Production
+code-push deployment history  JBO-CN-IM-Live-Android Production
+
+
+
+
+
+
+
+
+
+	
+	
+                                          code push 命令行  code-push测试环境 access-key
+8837bd2c07c405b2756c73d5177631551d8c7e94
+
+
+
+
+ 1. code-push常用命令    
+* 安装: npm install -g code-push-cli
+* 注册账号: code-push register
+* 登陆: code-push login
+* 注销: code-push logout
+* 添加项目: code-push app add [app名称]
+* 删除项目: code-push app remove [app名称]
+* 列出账号下的所有项目: code-push app list
+* 显示登陆的token: code-push access-key ls
+* 删除某个access-key: code-push access-key rm <accessKey>
+* 添加协作人员：code-push collaborator add <appName> 
+* 部署一个环境: code-push deployment add <appName> <deploymentName>
+* 删除部署: code-push deployment rm <appName>
+* 列出应用的部署: code-push deployment ls <appName>
+* 查询部署环境的key: code-push deployment ls <appName> -k
+* 查看部署的历史版本信息: code-push deployment history <appName> <deploymentNmae>
+* 重命名一个部署: code-push deployment rename <appName> <currentDeploymentName> <newDeploymentName>
+
+
+
+code-push patch  RB88-Live-TH-IOS   Production --label v30 --disabled true 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                           android 打包指令
+
+
+
+
+
+cd android && ./gradlew assembleRelease
+
+android 如果有新增图片 或images 目录有变动 
+要先打
+
+react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+再打 
+android 打包指令
+cd android && ./gradlew assembleRelease
+
+APPJBO 4500	强更 5000 正常
+
+百度云
+姓名：付云嵩
+账户13170769145
+密码fedev1234
+绑定邮箱
+帐号:gbfedev@gmail.com
+密码:Lx9XaWX97ZD6ySf
+
+
+
+內測俠
+https://www.neicexia.com/
+RB帳號
+benjilaiRB
+m3AMYwNyE8psSnW
+
+JBO帳號
+benjilai
+JAgfEmF95Hjkb29
+
+
+
+https://portal.qiniu.com/七牛帳號:
+774577878@qq.com
+新密码:admin@fedev123qwe
+
+
+https://developer.openinstall.io/Open install 
+Account：13170769145
+Password：Q2x1rz@!377h8ydy
+
+内测侠放新的ipa包
+七牛放新的apk包openinatall 里保存新的apk文件的链接
+
+亘古软件
+https://91ggkj.com/admin/#/login
+用户名： GB2B
+密码： gb2bIOS123
+
+
+JBO 阿里
+61.14.153.65
+Username: jbocontent.admin
+Password : #EDC5tgb78ikju
+
+
+
+Code-PuSH:
+https://appcenter.ms/apps
+账号:gbfedev@gmail.com
+密码:Lx9XaWX97ZD6ySf
+
+
+
+
+
+
+
+
+
+Vs code 插件  gitLens githistory
+
+
+git checkout -b card origin/card
+
+
+
+
+
+
+
+	
+	
+              UDID 
+
+
+
+
+id：enfollpdites@zoho.com
+密码：Pass121212
+
+
+https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2Faccount%2Fresources%2F&rv=1
+
+安卓删除这俩文件，重新导入
+nightcore   tibosdk
+
+ios 删除 libJBO_ios.framework
+
+
+JBOSPORTUpdate
+
+
+
+
+
+安卓启动图  /android/app/src/main/res/drawable-xxhdpi
+
+ios安卓启动图  ios/UMComponent/Images.xcassets
+
+
+
+
+
+
+	
+	
+				    React-native  命令行
+
+
+react-native run-ios
+react-native run-ios --simulator="iPhone Xs Max"
+react-native run-ios --simulator="iPhone XR"
+react-native run-ios --simulator="iPhone 8 Plus"
+react-native run-ios --simulator="iPhone 6"
+react-native run-ios --simulator="iPhone 5s"
+react-native run-android
+
+
+
+
+
+
+
+node_modules/react-native/Libraries/Core/InitializeCore.js
+XMLHttpRequest 这一行注释掉  方便观察ajax
+
+
+
+node_modules/react-native/local-cli/runIOS/findMatchingSimulator.js
